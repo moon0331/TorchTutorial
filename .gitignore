@@ -1,1 +1,4 @@
 .dccache
+MNIST_data
+data
+PyTorch 시작하기/img_align_celeba.zip
