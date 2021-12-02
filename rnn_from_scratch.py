@@ -16,7 +16,8 @@ import torch.nn.functional as F
 
 DIR_NAME = 'data/names/*.txt'
 
-ALL_LETTERS = string.ascii_letters + " .,;'"
+# ALL_LETTERS = string.ascii_letters + " .,;'"
+ALL_LETTERS = string.ascii_lowercase+ " .,;'"
 
 
 class RNN(nn.Module):

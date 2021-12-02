@@ -90,6 +90,7 @@ def categoryTensor(category):
 
 # 입력을 위한 처음부터 마지막 문자(EOS 제외)까지의  One-hot 행렬
 def inputTensor(line):
+    line = line.lower() ########
     tensor = torch.zeros(len(line), 1, n_letters)
     for li in range(len(line)):
         letter = line[li]

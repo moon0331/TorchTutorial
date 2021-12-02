@@ -10,7 +10,8 @@ import numpy as np
 def findFiles(path):
     return glob.glob(path)
 
-all_letters = string.ascii_letters + " .,;'"
+# all_letters = string.ascii_letters + " .,;'"
+all_letters = string.ascii_lowercase + " .,;'"
 n_letters = len(all_letters)
 
 # WTF?
